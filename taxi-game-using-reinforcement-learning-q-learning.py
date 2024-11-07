@@ -1,13 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Overview
-# Available Environments
-# 1-Taxi-v3
-# 2-FrozenLake-v1
-# 3-CliffWalking-v0
-# you can choose from them and the defualt one is Taxi Proplem definition : There are 4 locations (labeled by different letters), and our job is to pick up the passenger at one location and drop him off at another. We receive +20 points for a successful drop-off and lose 1 point for every time-step it takes. There is also a 10 points penalty for illegal pick-up and drop-off actions. Introduction In this project we will implement the Q-leaning algorithm and will see how the decay of the hyperparameter such as learning rate and discount factor and eplison will effect the results and we will implement a grid search to select the best parameters.
-# 
 
 # # Setup the requirement libraries
 
