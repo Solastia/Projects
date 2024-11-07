@@ -344,12 +344,6 @@ plt.ylabel("Actual")
 plt.title("Confusion Matrix")
 
 
-# ## Insights
-# 
-# - The model acheived 86% accuracy and f1-score for the test set
-# - The model has stopped earlier with only 30 epochs of training due to early stopping, and to notice if it would continue this would result a clear overfitting
-# - Each Eboch took about 63 seconds to execute
-# - Although it achieved a good accuracy but validation loss wasn't consistant at all and has a lot of fluctuations
 
 # # Transfer Learning (Pretrained Model)
 # 
@@ -440,19 +434,3 @@ plt.ylabel("Actual")
 plt.title("Confusion Matrix")
 
 
-# # Insights
-# 
-# - The model acheived 93% accuracy and f1-score on the test set
-# - The training has run for 50 epochs and did not stop by early stopping, although noticing the history plot i don't think it could achieve any higher
-# - Each Epoch took about 50 sec to execute
-# - The validation loss curve looks very smooth and has no fluctuations
-
-# # Conclusion
-# 
-# It's very intersting how transfer learning can improve and satisfy our goals with higher accuracy, consistant and faster
-# 
-# - With pretraind model We achieved 93% with 7% improvment from our own Neural network 86%
-# - The training phase was more consistant and faster in the pretraind model
-# - Maybe the Neural network i built wasn't the best and could be improved a lot, but you can see how easy and efficient you can use a pretrained model without the headaches of building you own layer by layer and trying to tune it as much as you can and you may not end with better result or close to as the pretrained one
-# 
-# So consider from now on to benfit from the power of Transfer learning and give it a try before trying to build your own one, it may save you a lot.
